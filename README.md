@@ -1,10 +1,12 @@
-# Module 22 SparkSQL Challenge
+# Module 22 - SparkSQL Challenge
 Home Sales - SparkSQL Challenge - Week 22 - Data Analytics Boot Camp - University of Oregon
+
+![SparkSQL Challenge](images/project_banner.jpg)
 
 ## Background
 I'm using SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
-# Approach
+## Approach
 This project was initially created as a [Google Colab project](https://colab.research.google.com/drive/1EWoheGOa2-MJ4qfTVcoyKXrHzp85ceXm?usp=sharing). A copy has been downloaded to GitHub for easy reference.
 
 
