@@ -22,11 +22,11 @@ This project was initially created as a [Google Colab project](https://colab.res
     - ![](images/6_avg-price-views_350000plus.JPG)
 - Cache a temporary table and confirm it has been cached.
 - Using the cached data, run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. - Determine the runtime and compare it to uncached runtime.
-    - Uncached Runtime:  0.9311182498931885 seconds
-    - Cached Runtime:  0.9198877811431885 seconds 
+    - Uncached Runtime:  0.7048161029815674 seconds
+    - Cached Runtime:  0.568709135055542 seconds
 - Partition by the "date_built" field on the formatted parquet home sales data.
 - Create a temporary table for the parquet data.
 - Run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-    - Uncached Runtime:  0.9311182498931885 seconds
-    - Parquet Cached Runtime:  0.9436604976654053 seconds
+    - Uncached Runtime:  0.7048161029815674 seconds
+    - Parquet Runtime:  1.135207176208496 seconds
 - Uncache the home_sales temporary table and verify it was uncached using PySpark.
